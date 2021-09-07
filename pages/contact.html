@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>coursework</title>
+	<link rel="stylesheet" href="../Css/css.css">
+</head>
+<style>
+	body{
+		background-image: url("../image/2.jpg") ;
+		width: 1300px;
+		background-size: cover;
+	}
+.z{
+	font-family: cursive;
+
+}
+.contact{
+	font-family: sans-serif;
+	text-align: center;
+	font-style: oblique;
+	font-size: x-large;
+}
+</style>
+<div>
+
+	<!--navbar-->
+	<div class="navbar">
+		<ul>
+			<li><a href="../index.html">Home</a></li>
+			<li><a href="blog.html">Blog</a></li>
+			<li><a href="cv.html">CV</a></li>
+			<li><a href="research.html">Research</a></li>
+			<li><a href="contact.html">Contact</a></li>
+		</ul>
+	</div>
+	
+	<div class="contact">
+		<p>
+			<h2>Contact Us</h2>
+		</p>
+	</div>
+	<!--navbar ends-->
+	<div class="form">
+	<form name="signup" onsubmit="validate()">
+		<div class="">
+		<table>
+			<tr>
+				<td>
+					<div class="z"><p> First Name : <input type="text" placeholder="First Name" name="fn"</p></div>
+				</td>
+			
+				<td>
+					<div class="z"><p> Middle Name : <input type="text" placeholder="Middle Name" name="mn"</p></div>
+				</td>
+			
+				<td>
+					<div class="z">	<p> Last Name : <input type="text" placeholder="Last Name" name="ln"</p></div>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<div class="z"><p> Email : <input type="text" placeholder="Email" name="email"</p></div>
+				</td>
+		
+				<td>
+					<div class="z"><p> Contact : <input type="number" placeholder="Contact No." name="contact"</p></div>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="5">
+					<div class="z"><p> Message : <input type="textarea" placeholder="Enter your Message" rows="10" colspan="60"</p></div>	
+				</td>
+			</tr>
+		</table>
+		</div>					
+		<br>
+		<br>
+		<br>
+		<input type="Submit" value="Submit">
+	</form>
+	</div>
+</body>
+
+<script src="../js/main.js"></script>
+</html>

@@ -1,0 +1,49 @@
+.navbar ul li{
+    font-size: x-large;
+    display: inline;
+    color: chocolate;
+    background-color: rgba(0, 0, 0, 0);
+    text-decoration: none;
+    
+    
+    
+
+}
+.navbar{
+    background-color: blueviolet;
+    text-align: center;
+    padding: 10px;
+    word-spacing: 15px;
+    
+    
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+.navbar ul li a:hover
+{
+    background-color: #0009;
+    padding: 10px;
+}
+.form{
+    
+    text-align: center;
+    border: none;
+    border-bottom: palegreen;
+    color: powderblue;
+    background-color: black;
+    border: peru;
+}
+.heading h1
+{
+	position: absolute;
+	top: 50%;
+	color: #fff;
+	padding-left: 35%;
+	font-size: 45px;
+}
+.time h1
+{
+    color: #fff;
+}
